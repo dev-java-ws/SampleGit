@@ -1,0 +1,17 @@
+server:
+ port: 8085
+my:
+ greeting: HellllloooConfig
+spring:
+ application:
+  name: FriendlyFoodsConfig
+dbValues: "{connectionString: 'http://___', userName: 'foo', password: 'pwd'}"
+
+db:
+ dbConnectionName: "{connectionString: 'http://___', userName: 'foo', password: 'pwd'}"
+ dbHost: 127.0.09
+ dbPort: 1200
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
