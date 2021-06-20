@@ -11,7 +11,7 @@ public class GitSpringBootSample {
 	
 	@RequestMapping("/messages")
 	public String getMessageFromClass() {
-		return "<html><body><font color=green><b>Hello  from GitSpringBootSample</b></font></body></html>";
+		return "<html><body><font color=green><b>Hello from GitSpringBootSampleProject</b></font></body></html>";
 	}
 
 }
